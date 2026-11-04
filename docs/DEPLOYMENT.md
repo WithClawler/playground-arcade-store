@@ -28,4 +28,4 @@ DNS 참고: https://docs.github.com/en/pages/configuring-a-custom-domain-for-you
 
 `npm ci && npm run build && npm test && npm run validate` 후 현재 main upstream에 commit/push합니다. `.github/workflows/pages.yml`이 소스부터 재빌드해 GitHub Pages에 배포합니다. `gh run list --repo doctor-clawler/playground-arcade-store`로 해당 commit workflow를 확인합니다.
 
-미리보기는 `npm run build:web`을 사용합니다. 내부망과 Tailscale 주소는 helper가 현재 중앙 할당과 HTTP probe로 출력하는 값을 사용합니다. 포트를 문서의 과거 값으로 고정하지 않습니다.
+미리보기는 `npm run build:web`을 사용합니다. 내부망 주소는 helper가 현재 중앙 할당과 HTTP probe로 출력하는 값을 사용합니다. 포트를 문서의 과거 값으로 고정하지 않습니다.
